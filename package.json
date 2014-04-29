@@ -1,0 +1,18 @@
+{"name":"ajax",
+ "version":"1.0.0",
+ "main":"ajax.js",
+ "description": "Simple ajax function with cache",
+ "keywords": ["sourcemap", "source", "map", "javascript"],
+ "repository": {
+   "type": "git",
+   "url": "https://github.com/fresheneesz/ajax"
+ },
+ "dependencies": {
+   "async-future":"0.1.17"
+ },
+ "devDependencies": {
+   "deadunit": "4.1.1",
+   "webpack": "",
+   "raw-loader":""
+ }
+}
