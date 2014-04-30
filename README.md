@@ -9,7 +9,7 @@ Example
 ```javascript
 ajax(url).then(function(response) {
     console.log('Got the file: '+response.text)
-})
+}).done()
 ```
 
 Install
