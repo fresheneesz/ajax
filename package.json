@@ -1,5 +1,5 @@
 {"name":"ajax",
- "version":"1.0.0",
+ "version":"1.0.1",
  "main":"ajax.js",
  "description": "Simple ajax function with cache",
  "keywords": ["sourcemap", "source", "map", "javascript"],

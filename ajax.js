@@ -78,7 +78,7 @@ exports = module.exports = function(url) {
     }
 
 
-    req.open('GET', url, true)
+    req.open('GET', url, asynchronous)
     req.send()
 
     return futureResult
@@ -90,6 +90,11 @@ var getFromCache = function(url) {
 }
 var setOnCache = function(url, futureResponse) {
     cache[url] = futureResponse
+}
+
+var asynchronous = true
+exports.setSynchronous = function(synchronous) { // this is here so I can work around this bug in chrome: https://code.google.com/p/chromium/issues/detail?id=368444
+    asynchronous = !synchronous
 }
 
 exports.cacheGet = function(fn) {

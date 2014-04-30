@@ -41,6 +41,9 @@ ajax.cacheSet(function(url, futureResponse) {
 })
 ```
 
+This sets ajax to synchronous behavior (not recommended). The reason this is here is to allow working around this bug in chrome: https://code.google.com/p/chromium/issues/detail?id=368444
+`ajax.setSynchronous(<synchronous>)` - pass in true to set to synchronous, false to set to async
+
 Browser Support
 =========
 
@@ -74,6 +77,7 @@ How to submit pull requests:
 Change Log
 =========
 
+* 1.0.1 - adding setSynchronous method
 * 1.0.0 - first release
 
 License
