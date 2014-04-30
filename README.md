@@ -16,7 +16,7 @@ Install
 =======
 
 ```
-npm install https://github.com/fresheneesz/ajax/archive/4b67b4ef7075831667b2f48bcab7945f5f85cb01.tar.gz
+npm install https://github.com/fresheneesz/ajax/archive/927aa0d0cb9f13555a9f8f5225ef7857cbb23880.tar.gz
 ```
 
 Usage
