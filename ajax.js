@@ -79,7 +79,11 @@ exports = module.exports = function(url) {
 
 
     req.open('GET', url, asynchronous)
-    req.send()
+    try {
+        req.send()
+    } catch(e) {
+        futureResult.throw(e)
+    }
 
     return futureResult
 }

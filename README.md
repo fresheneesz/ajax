@@ -77,6 +77,7 @@ How to submit pull requests:
 Change Log
 =========
 
+* 1.0.3 - catching synchronous error and passing to future
 * 1.0.2 - updating async-future
 * 1.0.1 - adding setSynchronous method
 * 1.0.0 - first release
